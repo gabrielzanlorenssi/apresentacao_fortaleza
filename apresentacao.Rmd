@@ -1,0 +1,204 @@
+---
+title: "Apresentação - Cerveja com Dados | Fortaleza"
+author: "Gabriel Zanlorenssi"
+date: "17/05/2019"
+output: 
+  beamer_presentation:
+   theme: "metropolis"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Apresentação
+
+\vfill
+
+* Cientista de dados no Nexo Jornal
+
+\vfill
+
+* Equipe de gráficos, atualmente composta 4 por pessoas
+
+\vfill
+
+* Onde vive e não vive ninguém no Brasil
+
+\vfill
+
+* Como funciona o processo
+
+\vfill
+
+# Onde vive e não vive...
+
+Gráfico em coautoria com **Rodolfo Almeida** (16/04, Nexo Jornal)
+
+```{r echo=F, out.width='82%', fig.align='center'}
+knitr::include_graphics(path='./files/teaser.png')
+```
+
+
+# Onde vive e não vive...
+
+
+```{r echo=F, out.width='80%', fig.align='center'}
+knitr::include_graphics(path='./files/onde_vive.png')
+```
+
+
+# Onde vive e não vive...
+
+
+```{r echo=F, out.width='80%', fig.align='center'}
+knitr::include_graphics(path='./files/onde_nao_vive.png')
+```
+
+
+# De onde surge a ideia..
+
+* Quiz do jornal **The Guardian**
+
+\vfill
+
+```{r echo=F, out.width='80%', fig.align='center'}
+knitr::include_graphics(path='./files/guardian1.png')
+```
+
+# De onde surge a ideia..
+
+* Quiz do jornal **The Guardian**
+
+\vfill
+
+```{r echo=F, out.width='70%', fig.align='center'}
+knitr::include_graphics(path='./files/guardian2.png')
+```
+
+# Onde achar os dados..
+
+* Primeiro lugar que vem na cabeça: **IBGE**
+
+\vfill
+
+* Algum mapa (shapefile) do Censo de 2010
+
+\vfill
+
+* Chegamos na **grade estatística** - que é diferente de setor censitário
+
+\vfill
+
+* 56 shapefiles, num total de 13GB de dados
+
+\vfill
+
+* Mais de 13 milhões de unidades territoriais (no mín. 40 mil m²)
+
+
+# Tratamento dos dados
+
+\vfill
+
+* Contas foram feitas no R
+
+\vfill
+
+* Utilização do pacote **sf** para trabalhar com os shapefiles no R
+
+\vfill
+
+* Layout dos mapas no **QGis**, o **R** não conseguia plotar tanta informação
+
+# Quiz das cidades brasileiras..
+
+```{r echo=F, out.width='85%', fig.align='center'}
+knitr::include_graphics(path='./files/quiz_nexo.png')
+```
+
+# Quiz das cidades brasileiras..
+
+```{r echo=F, out.width='100%', fig.align='center'}
+knitr::include_graphics(path='./files/fortaleza.png')
+```
+
+# Nobody lives here..
+
+\vfill
+
+```{r echo=F, out.width='55%', fig.align='center'}
+knitr::include_graphics(path='./files/uk.png')
+```
+
+\vfill
+
+# Nobody lives here..
+
+\vfill
+
+```{r echo=F, out.width='60%', fig.align='center'}
+knitr::include_graphics(path='./files/us.jpg')
+```
+
+\vfill
+
+# Nobody lives here..
+
+\vfill
+
+```{r echo=F, out.width='55%', fig.align='center'}
+knitr::include_graphics(path='./files/nz.png')
+```
+
+\vfill
+
+# Onde vive e não vive...
+
+* Feito no **QGis**
+
+```{r echo=F, out.width='70%', fig.align='center'}
+knitr::include_graphics(path='./files/onde_vive.png')
+```
+
+# Onde vive e não vive...
+
+* Feito no **QGis**
+
+```{r echo=F, out.width='70%', fig.align='center'}
+knitr::include_graphics(path='./files/onde_nao_vive.png')
+```
+
+
+# Onde vive e não vive...
+
+* Intersecção com mapa de municípios, usando o **sf** no R
+
+```{r echo=F, out.width='60%', fig.align='center'}
+knitr::include_graphics(path='./files/percentual.png')
+```
+
+# Exemplos
+
+
+```{r echo=F, out.width='65%', fig.align='center'}
+knitr::include_graphics(path='./files/examples.png')
+```
+
+
+# Obrigado!
+
+### Contatos
+* Twitter: @gzanlorenssi
+* E-mail: gabriel.zanlorenssi@nexojornal.com.br
+
+### Sigam também:
+* Nexo Jornal: @nexojornal
+* Rodolfo Almeida: @rodolfoalmd
+* Gabriel Maia: @gabmaia3
+
+
+
+
+
+
